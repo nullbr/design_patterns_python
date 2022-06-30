@@ -3,3 +3,4 @@ log message 1
 log message 2
 log message 3
 [ERROR] Something is wrong
+[INFO] This is an info message

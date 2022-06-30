@@ -8,7 +8,7 @@ class Logger(object):
         self.filename = filename
 
     # logger method to log messages from anywhere
-    def _write_log(level, msg):
+    def _write_log(self, level, msg):
         with open(self.filename, "a") as log_file:
             log_file.write("[{0}] {1}\n".format(level, msg))
 
